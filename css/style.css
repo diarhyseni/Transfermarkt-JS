@@ -64,6 +64,12 @@
         padding: 10px;
     }
     
+    .audio1 {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    
     .h2 {
         font-size: 1.5rem;
         color: lightseagreen;
@@ -118,7 +124,7 @@
     }
     
     #audio {
-        width: 600px;
+        width: 100%;
     }
     
     .texti {
@@ -193,6 +199,17 @@
     
     .centerd {
         text-align: center;
+    }
+    
+    .font {
+        font-family: 'Permanent Marker', cursive;
+        letter-spacing: 2px;
+    }
+    
+    .font2 {
+        font-family: 'Cinzel', serif;
+        padding: 5px;
+        padding-left: 20px;
     }
     
     .widget.single-news {
@@ -468,9 +485,9 @@
         font-weight: 400;
     }
     
-    .contact-form .input-text:focus+.label,
-    .contact-form .input-text.not-empty+.label {
-        transform: translateY(-24px);
+    .contact-form .input-text:not([value=""])+.label,
+    .contact-form .input-text:focus+.label {
+        transform: translateY(-30px);
     }
     
     .contact-form .input-text:focus {
@@ -565,7 +582,7 @@
         }
     }
     
-    .card {
+    .cards {
         background: #fff;
         border-radius: 2px;
         display: inline-block;
@@ -575,7 +592,7 @@
         width: 98%;
     }
     
-    .card-5 {
+    .cards-5 {
         box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
         transition: transform 250ms;
     }
@@ -638,6 +655,7 @@
     }
     
     .card-desc {
+        width: 100%;
         display: block;
         font-size: 1.2rem;
         position: absolute;
@@ -655,3 +673,7 @@
         height: 100%;
     }
     /* end of cardsss */
+    
+    .butoni {
+        background-color: blueviolet;
+    }
